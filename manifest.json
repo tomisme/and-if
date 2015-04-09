@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "and if",
+  "description": "Create IFTTT recipes based on the current page",
+  "version": "0.1.1",
+
+  "browser_action": {
+    "default_icon": "logo-bw-19px.png",
+    "default_popup": "popup.html",
+    "default_title": "Create a new recipe"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
