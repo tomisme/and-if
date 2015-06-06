@@ -1,0 +1,24 @@
+{
+  "name": "and-if",
+  "version": "0.1.1",
+  "description": "Chrome extension",
+  "scripts": {
+    "build-popup-js": "babel src/popup.js --out-file build/popup-bundle.js",
+    "build-content-js": "babel src/content.js --out-file build/content-bundle.js",
+
+    "build": "npm run build-popup-js & npm run build-content-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomisme/and-if.git"
+  },
+  "author": "Tom Hutchinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomisme/and-if/issues"
+  },
+  "homepage": "https://github.com/tomisme/and-if",
+  "dependencies": {
+    "lodash": "^3.6.0"
+  }
+}
